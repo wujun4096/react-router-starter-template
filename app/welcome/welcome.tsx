@@ -1,3 +1,5 @@
+import { HelloComp } from "../components/hello"
+
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
 
@@ -40,6 +42,7 @@ export function Welcome({ message }: { message: string }) {
 							))}
 							<li className="self-stretch p-3 leading-normal">{message}</li>
 						</ul>
+						<HelloComp />
 					</nav>
 				</div>
 			</div>
